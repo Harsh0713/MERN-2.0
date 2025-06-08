@@ -1,0 +1,26 @@
+
+/* EXTERNAL CSS STYLE  */
+
+/* Color Property : Used to set color of foreground - Elements in front */
+h1{
+    color: orange;
+    color: teal;
+    color: rebeccapurple;
+}
+
+p{
+    color: darkgoldenrod;
+}
+
+button{
+    color: brown;
+    background-color: rgb(0, 255, 0);
+}
+
+/* BACKGROUND COLOR PROPERTY */
+/* Color System RGB SYSTEM */
+body{
+    background-color: rgb(31, 191,162);
+}
+
+/* HEX COLOR SYSTEM --> color: #ff0000 */
