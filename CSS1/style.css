@@ -24,3 +24,31 @@ body{
 }
 
 /* HEX COLOR SYSTEM --> color: #ff0000 */
+
+
+/* UNIVERSAL SELECTOR-Used to set same property for the whole webpage
+
+*{
+}         
+    */
+
+/* ELEMENT SELECTOR - Used to apply property for a particular element which is selected  
+
+h1{
+
+}        
+  */
+
+/* ID SELECTOR - Used to give property for the unique id given to any elements, not applicable for multiple elemnts
+
+#headingOne{
+}
+        */
+
+/* CLASS SELECTOR - Property which is to be given for multiple elements they can be under the same named class ; and that class can define the properties which are applicable to all the elements under that CLASS NAME
+
+.myClass{
+
+}
+ */
+

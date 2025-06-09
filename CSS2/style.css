@@ -1,0 +1,17 @@
+#box{
+    background-color: pink;
+}
+/* 
+.heading{
+    color: red;
+} */
+
+/* OTHER WAY */
+
+h1, h2, h3{
+    color: red;
+}
+
+button{
+    background-color: rgb(33, 239, 33);
+}
