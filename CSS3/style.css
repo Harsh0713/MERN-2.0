@@ -2,9 +2,23 @@ p{
     text-align: start;
 }
 h1{
-    text-align: end;
+    text-align: center;
+    text-decoration: red wavy underline
+    ;
 }
 
 #text{
     text-align: center;
 }
+
+/* TEXT Decoration 
+underline
+line-through
+overline
+*/
+
+a{
+    text-decoration: none;
+}
+
+/* to learn anything about CSS go to website and search : "mdn" with the name of the CSS property */
