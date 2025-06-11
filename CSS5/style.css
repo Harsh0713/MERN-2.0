@@ -6,3 +6,10 @@ h1{
     text-align: center;
     color: blueviolet;
 }
+
+h2{
+    text-align: center;
+    text-decoration: blue wavy;
+    text-transform: capitalize;
+    text-shadow: 10;
+}
