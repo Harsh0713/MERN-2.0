@@ -4,15 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            color: blue;
+        }
+
+        .class1 a{
+            color: inherit;
+        }
+
+        .def a{
+            color: inherit;
+        }
+
+        .class2 a{
+            color: initial;
+        }
+         
+        .class3 a{
+            color: unset;
+        }
+    </style>
 </head>
 <body>
-    <li>Default <a href="">Link</a>Color</li>
+    <li class="def">Default <a href="">Link</a>Color</li>
     <li class="class1">Inherited <a href="">Link</a>color</li>
-        <li class="class1">Inherited <a href="">Link</a>color</li>
+        <li class="class2">Initial <a href="">Link</a>color</li>
 
-            <li class="class1">Inherited <a href="">Link</a>color</li>
+            <li class="class3">Unset
+                
+                <a href="">Link</a>color</li>
 
-            
+
 
 </body>
 </html>
