@@ -6,7 +6,7 @@
     <title>Document</title>
     <script>
 
-        var str = "This is is is is a string";
+        var str = "This is is is is a string ";
         console.log(str);
 
         //First occurance
@@ -23,6 +23,35 @@
 
         var substr1 = str.substr(1,3);
         console.log(substr1);
+
+        var replaced = str.replace('string', 'give');
+        console.log(replaced);
+
+        console.log(str.toUpperCase());
+
+        console.log(str.toLocaleLowerCase());
+
+        var newString = str.concat('My name is Harsh');
+        console.log(newString);
+
+
+        var strwithwhitespace = "             This contains space         ";
+        console.log(strwithwhitespace);
+
+
+        //To Remove the spaces
+        console.log(strwithwhitespace.trim())
+
+        var char = str.charAt(6);
+        console.log(char);
+
+        //ASCII code of the letter present at index 5
+        var char1 = str.charCodeAt(5);
+        console.log(char1);
+
+        console.log(str[5]);
+
+
 
 
         
