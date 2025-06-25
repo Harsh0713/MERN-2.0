@@ -5,15 +5,12 @@ function mySubjects(subjects){
     console.log(subjects+msg);
 }
 
-
-
 let subject = "CN";
 let subject2 = "DBMS";
 let subject3 = "SE";
 let subject4 = "PYTHON";
 let subject5 = "WEB DEV";
 let msg = " : Hello this is Harsh"
-
 
 mySubjects(subject, msg);
 mySubjects(subject2, msg);

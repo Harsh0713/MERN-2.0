@@ -6,15 +6,15 @@ for(i=1; i<=5; i++){
 }
 
 let subjects = ["CS", "DBMS", "OS", "SE", 'Cloud computing'];
-// for(let j=0; j<subjects.length;j++){
-//     let k=subjects[j];
-//     console.log("Subject name: "+k);
-// }
+for(let j=0; j<subjects.length;j++){
+    let k=subjects[j];
+    console.log("Subject name: "+k);
+}
 
 //FOR EACH LOOP
-// subjects.forEach(element => {
-//     console.log("My subjects "+element);
-// });
+subjects.forEach(element => {
+    console.log("My subjects "+element);
+});
 
 
 //FOR OF
@@ -34,10 +34,10 @@ for(key in employee){
 }
 
 let n=100;
-// while(n<5){
-//     console.log("n is less than 5");
-//     i++;
-// }
+while(n<5){
+    console.log("n is less than 5");
+    i++;
+}
 
 //DO-WHILE
 
