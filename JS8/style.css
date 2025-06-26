@@ -1,6 +1,13 @@
 .container{
     font-size: 28px;
     background-color: rgb(197, 121, 121);
-    border: 2px ;
+    border: 2px solid grey ;
+    padding: 20px;
+    margin: 4px;
+    text-align: center;
 
+}
+
+#time{
+    font-size: bold;
 }
